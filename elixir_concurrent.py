@@ -2,7 +2,6 @@ defmodule Sum do
   def calc(from, to) do
     Enum.reduce(from..to-1, fn(x, acc) -> x + acc end)
   end
-
 end
 
 0..5000-1
